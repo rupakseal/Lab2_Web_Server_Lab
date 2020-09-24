@@ -7,7 +7,7 @@ def webServer(port=13331):
 
     #Prepare a sever socket
     #Fill in start
-    TCP_IP='127.0.0.1'
+    TCP_IP=''
     serverSocket.bind((TCP_IP, port))
     serverSocket.listen(1)
     #Fill in end
